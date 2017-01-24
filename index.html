@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/button.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/mouse.css">
+    <script> 
+        $(window).scroll(function () {
+            $(".foreground").css("opacity", 1 - $(window).scrollTop() / 550);
+        });
+        $(document).ready(function () {
+
+            $('#nav-icon').click(function () {
+                $(this).toggleClass('open');
+                $('.fullscreen-nav').toggleClass('open');
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <nav class="fullscreen-nav">
+
+        <ul class="main-menu">
+            <li>
+                <a href="index.html"><h1 class="nav-link" style="color: black; letter-spacing: 0px; font-family: Lato; font-weight: 300;">HOME</h1></a>
+            </li>
+            <li>
+                <a href="#"><h1 class="nav-link" style="color: black; letter-spacing: 0px; font-family: Lato; font-weight: 300;">WORK</h1></a>
+            </li>
+            <li>
+               <a href="about.html"><h1 class="nav-link" style="color: black; letter-spacing: 0px; font-family: Lato; font-weight: 300;">ABOUT</h1></a>
+            </li>
+            <li>
+                <a href="contact.html"><h1 class="nav-link" style="color: black; letter-spacing: 0px; font-family: Lato; font-weight: 300;">CONTACT</h1></a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <div id="nav-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+<div class="section" id="top">
+    <div class="foreground">
+        <div class="header-title">
+            <h1 class="header-text">WELCOME</h1>
+        </div>
+        <div class="description">
+            <p class="description-text">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Sed aliquet condimentum est vitae iaculis. <br>                Aliquam et nunc lacus. Maecenas tempus sem <br>in vehicula luctus. Mauris pellentesque vitae arcu nec pretium.
+            </p>
+        </div>
+        <div class="link">
+            <a href="#gallery" class="btn">
+                <span class="btn-text">Showcase</span>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="section" id="gallery">
+    <div class="carousel-img slider1">
+    </div>
+    <div class="carousel-img slider2">
+    </div>
+    <div class="carousel-img slider3">
+    </div>
+        <a href="#case-1">
+        <div class="mouse_scroll">
+
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div>
+                <span class="m_scroll_arrows unu"></span>
+                <span class="m_scroll_arrows doi"></span>
+                <span class="m_scroll_arrows trei"></span>
+            </div>
+        </div>
+    </a>
+</div>
+<div class="section" id="case-1">
+    <div class="case-title">
+        <h1 class="case-title-text">Case 1</h1>
+        <p class="case-title-desc">Brief One Sentence Description</p>
+    </div>
+    <a href="#case-2">
+        <div class="mouse_scroll">
+
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div>
+                <span class="m_scroll_arrows unu"></span>
+                <span class="m_scroll_arrows doi"></span>
+                <span class="m_scroll_arrows trei"></span>
+            </div>
+        </div>
+    </  a>
+</div>
+<div class="section" id="case-2">
+    <div class="case-title">
+        <h1 class="case-title-text">Case 2</h1>
+        <p class="case-title-desc">Brief One Sentence Description</p>
+    </div>
+    <a href="#case-3">
+        <div class="mouse_scroll">
+
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div>
+                <span class="m_scroll_arrows unu"></span>
+                <span class="m_scroll_arrows doi"></span>
+                <span class="m_scroll_arrows trei"></span>
+            </div>
+        </div>
+    </a>
+</div>
+<div class="section" id="case-3">
+    <div class="case-title">
+        <h1 class="case-title-text">Case 3</h1>
+        <p class="case-title-desc">Brief One Sentence Description</p>
+    </div>
+</div>
+</body>

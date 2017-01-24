@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-size:cover;
+    background-position: center;
+    text-decoration: none;
+}
+article, section {
+    display: block;
+}
+body {
+    background-color: #2f2f2f;
+    background-image: url(../img/authorface2.jpg);
+}
+.container {
+    height: 100vh;
+}
+.article {
+    position: absolute;
+    width: 90%;
+    margin: 0 auto;
+    bottom: 15%;
+    left: 5%;
+    display: block;
+}
+h1 {
+    color: white; 
+    font-size: 160px;
+    font-weight: 700;
+    letter-spacing: -10px;
+    text-indent: -10px;
+    font-family: Helvetica;
+}
+.text {
+    float: left;
+    width: 50%;
+    margin-right: 10%;
+}
+
+p {
+    font-size: 18px;
+    line-height: 150%;
+    font-family: Helvetica;
+    color: white;
+}
+.non-menu{
+    float: left;
+    margin-right: 10%;  
+    text-decoration: none;
+}
+
+.listLI {
+    line-height: 200%;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    color:white;
+    font-family: Helvetica;
+    text-decoration: none;
+    list-style-type: none;
+}
