@@ -1,0 +1,131 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+.icon{
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 1.47em;
+  line-height: 2em;
+  background-color: #dedede;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin: 5px;
+  /*box-shadow: 0px 3px 0px #bdbdbd, 0px 3px 10px #bababa;*/
+  -webkit-transition:background-color 250ms ease 0s;
+  transition:background-color 250ms ease 0s;
+}
+
+.zocial-facebook{margin-left: -8px}
+
+.icon:hover{
+  background-color: #3783ab;
+}
+/*.icon.facebook:hover{background-color: #4986c7;}
+.twitter:hover{background-color: #4cb6e8;}
+.linkedin:hover{background-color: #29a0cc;}
+.youtube:hover{background-color: #a32929;}
+.flickr:hover{background-color: #c257ad;}
+.email:hover{background-color: #d5b120;}*/
+
+a{
+  text-decoration: none;
+}
+
+.icon:hover{
+  color: #fff;
+  /*box-shadow: 0px 3px 0px #686868, 0px 3px 10px #7e7e7e;*/
+}
+
+.fullPage {
+        background-image: url(../../img/authorface2.jpg);
+    margin: 0;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.icon:active{
+  box-shadow: inset 0px 1px 4px #3d3d3d, 0px 0px 0px #bdbdbd;
+  top: 3px;
+}
+.footer-section {
+    background-color: #2f2f2f;
+    width: 100%;
+    height: 27vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-footies {
+    width: 33%;
+    float: left;
+    margin-right: 9,09%;
+    text-align: center;
+}
+h3, h5, h4 {
+    color: white;
+    font-family: Lato;
+    font-weight: 300;
+}
+article, section {
+    display: block;
+    margin: 0;
+}
+body {
+    background-color: #2f2f2f;
+}
+.container {
+    height: 100vh;
+}
+.article {
+    position: absolute;
+    width: 90%;
+    margin: 0 auto;
+    bottom: 15%;
+    left: 5%;
+    display: block;
+}
+h1 {
+    color: white;
+    font-size: 160px;
+    font-family: Helvetica;
+    font-weight: 700;
+    letter-spacing: -10px;
+    text-indent: -10px;
+}
+.text {
+    float: left;
+    width: 50%;
+    margin-right: 10%;
+}
+
+p {
+    font-size: 18px;
+    line-height: 150%;
+    font-family: Helvetica;
+    color: white;
+}
+.non-menu{
+    float: left;
+    margin-right: 10%;  
+    text-decoration: none;
+}
+
+.listLI {
+    line-height: 200%;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    color:white;
+    font-family: Helvetica;
+    text-decoration: none;
+    list-style-type: none;
+}
