@@ -80,51 +80,12 @@
     <section class="footer-footies last">
         <h3>Social</h3>
         <a class="icon facebook" href="#"><span class="zocial-facebook"></span></a>
-        <a class="icon twitter" href="#"><span class="zocial-twitter"></span></a><br>
-        <a class="icon linkedin" href="#"><span class="zocial-linkedin"></span></a>
-        <a class="icon youtube" href="#"><span class="zocial-youtube"></span></a><br>
+        <a class="icon twitter" href="#"><span class="zocial-twitter"></span></a>
+        <a class="icon linkedin" href="#"><span class="zocial-linkedin"></span></a><br>
+        <a class="icon youtube" href="#"><span class="zocial-youtube"></span></a>
         <a class="icon flickr" href="#"><span class="zocial-flickr"></span></a>
         <a class="icon email" href="#"><span class="zocial-email"></span></a>
     </section>
 </div>
-<script>
-        // Create a lightbox
-        (function () {
-            var $lightbox = $("<div class='lightbox'></div>");
-            var $img = $("<img>");
-            var $caption = $("<p class='caption'></p>");
-
-            // Add image and caption to lightbox
-
-            $lightbox
-                .append($img)
-                .append($caption);
-
-            // Add lighbox to document
-
-            $('body').append($lightbox);
-
-            $('.lightbox-gallery img').click(function (e) {
-                e.preventDefault();
-
-                // Get image link and description
-                var src = $(this).attr("src");
-                var cap = $(this).attr("alt");
-
-                // Add data to lighbox
-
-                $img.attr('src', src);
-                $caption.text(cap);
-
-                // Show lightbox
-
-                $lightbox.fadeIn('fast');
-
-                $lightbox.click(function () {
-                    $lightbox.fadeOut('fast');
-                });
-            });
-
-        } ());
-    </script>
+</div>
 </body>
